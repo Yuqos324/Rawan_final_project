@@ -1,0 +1,47 @@
+Daftar Pustaka
+
+-Liu, G. R.. 2022. Machine Learning With Python: Theory and Applications. NJ: World Scientific Pub Co Inc.
+(page 11)
+Requirements for creating machine learning models
+To train a machine learning model, one would need a following:
+1. A dataset, which may be obtained via observations, experiments, and physics law based models. the dataset is usually divided randomly into two mutually independent subsets, training datasets and testing datasets, typically at a rate of 75:25. the independence of the testing dataset is critical because ml models are determined largely by the training dataset, and hence their reliability depends on objective testing.
+2. labels with the dataset, if possible.
+3. Prior information on the dataset if possible, such as the quality of the data and key features of the data. this can be useful in choosing a proper algorithm for the problem, and in application of regularization techniques in the training.
+4. proper computer software tools, modules and/or effective algorithm.
+5. a computer, preferably connected to the internet. 
+
+(page 4-5)
+General steps for training machine learning models
+1. obtaining the dataset for the problem, by your own means of data generation, or imported from other existing source, or computer syntheses.
+2. clean up the datasets if there are objectively known defaults in it.
+3. determine the type of hypothesis for the model.
+4. develop or import proper module for the needed algorithm for the problem. the learning ability (no of learning param) of the model and the size of the dataset shall be properly balanced if possible. otherwise, consider the use of regularization techniques.
+5. randomly initializing the learning parameters, or import some known pre learned training parameters. 
+6. perform the training with proper optimization techniques and monitoring measures.
+7. test the trained model using an independent test dataset. this can also be done during the training. 
+8. deploy the trined and tested model to the same type of problems, where the training and testing data are collected/generated.
+
+(page 19,)
+Python is a very powerful high-level programming language with the need of compiling, but with some level of efficiency of machine learning. it has become the top  popular tool for the development of tools and applications int the general are of machine learning. it has rich libraries for open access, and new libraries are constantly being developed. the language itself is powerful int terms of functionality. it is an excellent tool for effective and productive coding and programming. it is also fast, and the structure of the language is well built   for making use of bulky data, which is often the case in machine learning.
+Python was created by guido van Rossum and first released in 1991. pythons design philosophy emphasizes code "readability". it uses an object oriented approach aiming to help programmers to write clear, less repetitive, logical codes for small and large-scale projects that may have teams of people working together.
+
+(page 421-423)
+in many practical applications, we often only need to make a yes or no type of decision. probability prediction is often the best choice for making such a decision. for example (isi problem makalah), this type of problem requires an assessment on probability of the occurrence of an event, and is a typical classification problem. the simplest classification problem is the binary classification: there are only two class, yes or no, for decision making. in this case, we are ging to use logistic regression.
+A two-classification problem has two labels 1 or 0 for a given input x(i kecil): positive class labeled with y(i kecil) = 1 and negative class labeled with y(i kecil) = 0. our problem can be formulated to predict values of 
+probability alike for an event against these labels. therefore, it makes good sense to use the following logistic (or sigmoid) activation function o that maps an arbitrary real output z to be within (0,1): insert formula
+it squashes any argument value z in (-infinite, infinite) to be in (0,1). using the affine transformation our prediction formula becomes: insert formula
+because the value of a logistic prediction functions falls in the region of (0,1), it is now comparable with the given labels.
+
+-Heryadi, Yahya, dan Teguh Wahyono. (2020). Machine Learning Konsep dan Implementasi. Yugyakarta: Penerbit Gava Media
+
+(page 55)
+Istilah machine learning pertama kali digunakan untuk menyebut sebuah cabang ilmu computer yang mempelajari metode perancangan algoritma yang mampu "belajar"atau beradaptasi terhadap pola data tanpa deprogram secara eksplisit (Samuel, 1959). Istilah ini selanjutnya dipopulerkan oleh seorang ahli ilmu computer dari carniege mellon university (Simon, 1983) yang mendefinisikan machine learning sebagai: "changes in the sense that they enable the system to do the same task or task dran from the same population more efficiently and more effectively the next time". Dengan perkataan lain, machine learning adalah sebuah system yang dirancang dengan kemampuan beradaptasi dengan tujuan untuk meningkatkan efisiensi dan efeftivitas fungsinya.
+Contoh dari model machine learning adalah sebuah model yang dirancang untuk mengenali transaksi keuangna menggunakan kartu kredit yang dikategorikan sebagai transaksi fraud. model ini di training dengan sebuah algoritma pemblajaran dengan rang lingkup ssebagai berikut:
+1. tugas yang harus dilaksanakan (t) : mendeteksi apakah sebuah transaksi keuangnan menggunakan artu debit, dengan beberapa data identitas pemilik yang dapat diekstraksi dari computer bank penerbit kartu dabit dan nilai transaksi sebagai input, dapat dikelompokkan ke dalam sebuah transaksi fraud atau non fraud.
+2. ukuran kinerja (p): rata-rata penyimpangna prediksi bahwa sebuah transaksi tergolong fraud dengan penilaian kategori transaksi keuangan oleh pihak bank penerbit kartu debit.
+3. pengalaman training (e): sejumlah conton transaksi keuangna menggunakan karti debit sebelum mendapatkan data transaksi baru.
+
+machine learning merupakan salah satu cabang ilmu kecerdasan buatan yang berkembang sangat cepat dan telah menyebabkan masalah klasifikasi, regresi, klastering, dan anomaly detection pada berbagai bidang dapat diatasi lebih efisien. misalnya, pengenalan sel yang bersifat abnormal berdasarkan citra CT scan membantu dokter mendiagnosa pasien. Pengenalan jenis dan lokasi objek yang akurat berdasarkan video digital atau citra satelit sudah dipergunakan secara luas di bidang keamanan wilayah, periklanan, penanganan bencana alam, atau transportasi cerdas. 
+
+- joga, nirwono, endra saleh dan dhaneswara nirwana. 2019. trans jawa: menjalin infrastruktur berkelanjutan. Jakarta: Gramedia
+- hardiyatmo, hary christady. 2011. perancangan perkerasan jalan & penyelidikan tanah. yugyakarta: Gadjah mada university press
